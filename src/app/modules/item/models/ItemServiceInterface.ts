@@ -1,6 +1,6 @@
 
 // tslint:disable:semicolon
-import * as firebase from 'firebase/app';
+import * as firebase from '@firebase/app';
 import { ItemModelInterface } from './itemModelInterface';
 import { Observable, BehaviorSubject } from 'rxjs';
 export interface ItemServiceInterface {
